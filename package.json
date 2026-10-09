@@ -1,1 +1,14 @@
-
+{
+  "name": "vibecash-treasure-server",
+  "version": "1.0.0",
+  "description": "VibeCash Treasure Box Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "firebase-admin": "^13.5.0"
+  }
+}
